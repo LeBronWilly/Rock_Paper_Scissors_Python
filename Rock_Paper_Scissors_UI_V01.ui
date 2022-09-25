@@ -95,10 +95,10 @@
   <widget class="QGraphicsView" name="You_Image">
    <property name="geometry">
     <rect>
-     <x>280</x>
-     <y>280</y>
-     <width>80</width>
-     <height>80</height>
+     <x>270</x>
+     <y>270</y>
+     <width>100</width>
+     <height>100</height>
     </rect>
    </property>
    <property name="sizePolicy">
@@ -106,6 +106,12 @@
      <horstretch>0</horstretch>
      <verstretch>0</verstretch>
     </sizepolicy>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
    </property>
   </widget>
   <widget class="QLabel" name="You_Text">
@@ -172,10 +178,10 @@ p, li { white-space: pre-wrap; }
   <widget class="QGraphicsView" name="Opponent_Image">
    <property name="geometry">
     <rect>
-     <x>280</x>
-     <y>90</y>
-     <width>80</width>
-     <height>80</height>
+     <x>270</x>
+     <y>80</y>
+     <width>100</width>
+     <height>100</height>
     </rect>
    </property>
    <property name="sizePolicy">
@@ -183,6 +189,12 @@ p, li { white-space: pre-wrap; }
      <horstretch>0</horstretch>
      <verstretch>0</verstretch>
     </sizepolicy>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
    </property>
   </widget>
   <widget class="QPushButton" name="Paper_Button">

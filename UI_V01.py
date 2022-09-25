@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'Rock_Paper_Scissors_UI_V01mLdedU.ui'
+## Form generated from reading UI file 'Rock_Paper_Scissors_UI_V01LSIgGt.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -53,12 +53,14 @@ class Ui_Rock_Paper_Scissors(object):
         self.Opponent_Text.setAlignment(Qt.AlignCenter)
         self.You_Image = QGraphicsView(Rock_Paper_Scissors)
         self.You_Image.setObjectName(u"You_Image")
-        self.You_Image.setGeometry(QRect(280, 280, 80, 80))
+        self.You_Image.setGeometry(QRect(270, 270, 100, 100))
         sizePolicy = QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.You_Image.sizePolicy().hasHeightForWidth())
         self.You_Image.setSizePolicy(sizePolicy)
+        self.You_Image.setVerticalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
+        self.You_Image.setHorizontalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
         self.You_Text = QLabel(Rock_Paper_Scissors)
         self.You_Text.setObjectName(u"You_Text")
         self.You_Text.setGeometry(QRect(220, 460, 200, 51))
@@ -79,9 +81,11 @@ class Ui_Rock_Paper_Scissors(object):
         self.Loss_Count.setHorizontalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
         self.Opponent_Image = QGraphicsView(Rock_Paper_Scissors)
         self.Opponent_Image.setObjectName(u"Opponent_Image")
-        self.Opponent_Image.setGeometry(QRect(280, 90, 80, 80))
+        self.Opponent_Image.setGeometry(QRect(270, 80, 100, 100))
         sizePolicy.setHeightForWidth(self.Opponent_Image.sizePolicy().hasHeightForWidth())
         self.Opponent_Image.setSizePolicy(sizePolicy)
+        self.Opponent_Image.setVerticalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
+        self.Opponent_Image.setHorizontalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
         self.Paper_Button = QPushButton(Rock_Paper_Scissors)
         self.Paper_Button.setObjectName(u"Paper_Button")
         self.Paper_Button.setEnabled(True)
