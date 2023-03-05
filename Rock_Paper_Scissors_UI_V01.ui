@@ -141,7 +141,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QTextEdit" name="Loss_Count">
+  <widget class="QTextEdit" name="Win_Count">
    <property name="enabled">
     <bool>false</bool>
    </property>
@@ -279,7 +279,7 @@ p, li { white-space: pre-wrap; }
 &lt;p align=&quot;right&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;0&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
-  <widget class="QTextEdit" name="Win_Count">
+  <widget class="QTextEdit" name="Loss_Count">
    <property name="enabled">
     <bool>false</bool>
    </property>

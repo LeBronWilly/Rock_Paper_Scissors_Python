@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'Rock_Paper_Scissors_UI_V01LSIgGt.ui'
+## Form generated from reading UI file 'Rock_Paper_Scissors_UI_V01aSUSvj.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -67,18 +67,18 @@ class Ui_Rock_Paper_Scissors(object):
         self.You_Text.setFont(font2)
         self.You_Text.setLayoutDirection(Qt.LeftToRight)
         self.You_Text.setAlignment(Qt.AlignCenter)
-        self.Loss_Count = QTextEdit(Rock_Paper_Scissors)
-        self.Loss_Count.setObjectName(u"Loss_Count")
-        self.Loss_Count.setEnabled(False)
-        self.Loss_Count.setGeometry(QRect(530, 260, 101, 31))
+        self.Win_Count = QTextEdit(Rock_Paper_Scissors)
+        self.Win_Count.setObjectName(u"Win_Count")
+        self.Win_Count.setEnabled(False)
+        self.Win_Count.setGeometry(QRect(530, 260, 101, 31))
         font3 = QFont()
         font3.setFamily(u"Arial")
         font3.setPointSize(14)
         font3.setBold(False)
         font3.setWeight(50)
-        self.Loss_Count.setFont(font3)
-        self.Loss_Count.setVerticalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
-        self.Loss_Count.setHorizontalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
+        self.Win_Count.setFont(font3)
+        self.Win_Count.setVerticalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
+        self.Win_Count.setHorizontalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
         self.Opponent_Image = QGraphicsView(Rock_Paper_Scissors)
         self.Opponent_Image.setObjectName(u"Opponent_Image")
         self.Opponent_Image.setGeometry(QRect(270, 80, 100, 100))
@@ -103,13 +103,13 @@ class Ui_Rock_Paper_Scissors(object):
         self.Deuce_Count.setFont(font3)
         self.Deuce_Count.setVerticalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
         self.Deuce_Count.setHorizontalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
-        self.Win_Count = QTextEdit(Rock_Paper_Scissors)
-        self.Win_Count.setObjectName(u"Win_Count")
-        self.Win_Count.setEnabled(False)
-        self.Win_Count.setGeometry(QRect(530, 340, 101, 31))
-        self.Win_Count.setFont(font3)
-        self.Win_Count.setVerticalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
-        self.Win_Count.setHorizontalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
+        self.Loss_Count = QTextEdit(Rock_Paper_Scissors)
+        self.Loss_Count.setObjectName(u"Loss_Count")
+        self.Loss_Count.setEnabled(False)
+        self.Loss_Count.setGeometry(QRect(530, 340, 101, 31))
+        self.Loss_Count.setFont(font3)
+        self.Loss_Count.setVerticalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
+        self.Loss_Count.setHorizontalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
         self.Win_Count_Text = QLabel(Rock_Paper_Scissors)
         self.Win_Count_Text.setObjectName(u"Win_Count_Text")
         self.Win_Count_Text.setGeometry(QRect(440, 260, 91, 31))
@@ -163,7 +163,7 @@ class Ui_Rock_Paper_Scissors(object):
         self.Developer_Willy.setText(QCoreApplication.translate("Rock_Paper_Scissors", u"Developed by Willy Fang", None))
         self.Opponent_Text.setText(QCoreApplication.translate("Rock_Paper_Scissors", u"Opponent", None))
         self.You_Text.setText(QCoreApplication.translate("Rock_Paper_Scissors", u"You", None))
-        self.Loss_Count.setHtml(QCoreApplication.translate("Rock_Paper_Scissors", u"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+        self.Win_Count.setHtml(QCoreApplication.translate("Rock_Paper_Scissors", u"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Arial'; font-size:14pt; font-weight:400; font-style:normal;\">\n"
@@ -175,7 +175,7 @@ class Ui_Rock_Paper_Scissors(object):
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Arial'; font-size:14pt; font-weight:400; font-style:normal;\">\n"
 "<p align=\"right\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">0</p></body></html>", None))
-        self.Win_Count.setHtml(QCoreApplication.translate("Rock_Paper_Scissors", u"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+        self.Loss_Count.setHtml(QCoreApplication.translate("Rock_Paper_Scissors", u"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Arial'; font-size:14pt; font-weight:400; font-style:normal;\">\n"
